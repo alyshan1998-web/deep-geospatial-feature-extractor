@@ -1,0 +1,19 @@
+1. Folder Structure
+```text
+deep-geospatial-feature-extractor/
+├── data/
+│   ├── imagery/.gitkeep
+│   └── masks/.gitkeep
+├── src/
+│   ├── __init__.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── unet_multiband.py
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   ├── raster_tiler.py
+│   │   └── polygonizer.py
+│   └── inference.py
+├── .gitignore
+├── requirements.txt
+└── README.md
